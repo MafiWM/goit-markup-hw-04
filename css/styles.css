@@ -350,6 +350,18 @@ body {
   margin-bottom: 16px;
 }
 
+.list-social-media {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  gap: 24px;
+}
+
+.footer .list-social-media{
+  padding:0;
+  gap: 16px;
+}
+
 .customers {
   padding: 156px 120px;
 }
