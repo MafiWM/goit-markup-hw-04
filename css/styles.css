@@ -202,13 +202,18 @@ body {
 .team-item {
   background-color: var(--primary-background-color);
 }
+
+.container-team-item {
+  padding-top: 32px;
+  padding-bottom: 36px;
+}
+
 .team-name {
   color: var(--title-text-color);
   font-weight: var(--secondary-font-weight);
   font-size: var(--secondary-font-size);
   line-height: var(--secondary-line-height);
   text-align: center;
-  padding-top: 32px;
   padding-bottom: 8px;
 }
 .team-job {
@@ -221,6 +226,38 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   gap: 24px;
+}
+
+.link-social-media {
+  display: inline-flex;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border: none;
+  color: var(--team-background-color);
+  background-color: var(--accent);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-social-media:hover,
+.link-social-media:focus {
+  background-color: #404bbf;
+}
+
+.footer .link-social-media {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .link-social-media:hover,
+.footer .link-social-media:focus {
+  background-color: #31d0aa;
 }
 
 .icon-social-media {
