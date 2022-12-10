@@ -154,7 +154,6 @@ body {
 }
 
 .spdt-svg {
-
 }
 
 .spdt-item {
@@ -216,6 +215,18 @@ body {
   text-align: center;
   padding-bottom: 32px;
 }
+
+.list-social-media {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  gap: 24px;
+}
+
+.icon-social-media {
+  fill: currentColor;
+}
+
 .buttons,
 .buttonsall {
   background-color: var(--color);
