@@ -14,3 +14,27 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+
+.icon-client1 {
+  width: 0.8720703125em;
+}
+
+.icon-client2 {
+  width: 0.76953125em;
+}
+
+.icon-client3 {
+  width: 1.0732421875em;
+}
+
+.icon-client4 {
+  width: 2.048828125em;
+}
+
+.icon-client5 {
+  width: 1.369140625em;
+}
+
+.icon-client6 {
+  width: 2.0888671875em;
+}
